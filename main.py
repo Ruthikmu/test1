@@ -2,6 +2,7 @@ import hashlib
 
 password = "admin123"
 
+
 def login(user,pwd):
     if pwd == password:
         print("Login Successful")
